@@ -1,0 +1,29 @@
+{
+  "name": "@txm/linkedin-people-search-unvetted",
+  "version": "1.0.0",
+  "description": "LinkedIn People Search. Health Warning: unvetted access - against TOS - own risk",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/txm/linkedin-people-search-unvetted.git"
+  },
+  "author": "Andrew McGregor <andy@txm.net> (http://www.txm.net)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/txm/linkedin-people-search-unvetted/issues"
+  },
+  "homepage": "https://github.com/txm/linkedin-people-search-unvetted#readme",
+  "devDependencies": {
+    "blanket": "^1.2.1",
+    "chai": "^3.4.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.3.4",
+    "travis-cov": "^0.2.5"
+  }
+}
